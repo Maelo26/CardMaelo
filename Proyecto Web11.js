@@ -72,24 +72,3 @@
     </div>
 </body>
 </html>
-.tarjeta {
-         width: 300px;
-         padding: 20px;
-         border: 1px solid #ccc;
-         border-radius: 10px;
-         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-         text-align: center;
-         font-family: Arial, sans-serif;
-     }
-     .nombre {
-         font-size: 24px;
-         font-weight: bold;
-         color: #333;
-     }
-     .puesto {
-         font-size: 18px;
-         color: #666;
-     }
-     document.querySelector('.tarjeta').addEventListener('click', function() {
-         this.style.transform = 'scale(1.05)';
-     });
